@@ -16,6 +16,7 @@ public class LoadDb {
 
 	private static final Logger log = LoggerFactory.getLogger(LoadDb.class);
 
+	
 	@Bean
 	public CommandLineRunner demo(UserRepository repository) {
 		return (args) -> {
